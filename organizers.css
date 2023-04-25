@@ -1,0 +1,30 @@
+.organizers {
+  padding: 70px 0 20px;
+}
+
+.organizers__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+}
+
+.organizers__box {
+  padding-top: 80px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .organizers__box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+
+  .organizers__box {
+    width: 26%;
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,45 @@
+.ambassadors {
+  padding: 70px 0 20px;
+}
+
+.ambassadors__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+}
+
+.ambassadors__header-secondary {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+  margin-top: 20px;
+}
+
+.ambassadors__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+  margin-top: 20px;
+}
+
+.ambassadors__image {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.ambassadors__box {
+  padding-top: 60px;
+}
+
+@media (min-width: 1024px) {
+  .ambassadors__box-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ambassadors__box {
+    width: 30%;
+  }
+}

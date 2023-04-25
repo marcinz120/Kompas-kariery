@@ -1,0 +1,27 @@
+.sm {
+  padding: 70px 0 20px;
+  background-color: #e9ebea;
+}
+
+.sm__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+}
+
+.hashtag-sm {
+  color: #016468;
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .sm__text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hashtag-sm {
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,101 @@
+.contact {
+  padding: 70px 0 20px;
+  background-color: #016468;
+}
+
+.contact__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fbcb07;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  padding: 14px 0 10px;
+}
+
+.contact__form-input {
+  height: 40px;
+  width: 100%;
+  border-radius: 6px;
+  border: solid 2px #016468;
+}
+
+.contact__form-textarea {
+  height: 80px;
+  width: 100%;
+  border-radius: 6px;
+  border: solid 2px #016468;
+}
+
+.contact__form-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: solid 2px #016468;
+}
+
+.contact__image-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.contact__image {
+  display: block;
+  width: 80%;
+  margin: 80px auto 0;
+}
+
+.contact__compass-decoration {
+  display: block;
+  position: absolute;
+  width: 100px;
+  top: -40px;
+  left: -12px;
+}
+
+.contact__compass-background {
+  position: absolute;
+  z-index: -1;
+  top: -66px;
+  right: -20px;
+}
+
+@media (min-width: 768px) {
+  .contact__text-wrapper {
+    width: 50%;
+  }
+
+  .container-contact {
+    display: flex;
+    gap: 50px;
+  }
+  .contact__image-wrapper {
+    width: 50%;
+  }
+  .contact__compass-decoration {
+    top: 40px;
+  }
+
+  .contact__compass-background {
+    top: -50px;
+    right: -22px;
+    width: 200%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact__compass-decoration {
+    left: 10px;
+    width: 120px;
+  }
+}

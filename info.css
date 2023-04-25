@@ -1,0 +1,97 @@
+.info {
+  padding: 70px 0 20px;
+}
+.info__image-wrapper {
+  display: none;
+}
+
+.info__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+}
+
+.info__box {
+  padding-top: 30px;
+}
+
+.info__box-icon {
+  width: 50px;
+}
+
+.info__box-header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #016468;
+}
+
+.info__box-text {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  padding-top: 10px;
+}
+
+.info__bolded-text {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .info__image-wrapper {
+    display: block;
+    /* margin-top: 90px; */
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .info__image {
+    position: relative;
+    display: block;
+    width: 300px;
+    border-radius: 32px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .info__compass-decoration {
+    display: block;
+    width: 100px;
+  }
+
+  .info__compass-decoration {
+    position: relative;
+    z-index: 1;
+    top: -550px;
+    left: -20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .info__box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .info__header {
+    padding: 0px;
+  }
+
+  .info__box {
+    width: 44%;
+    padding: 0px;
+  }
+}

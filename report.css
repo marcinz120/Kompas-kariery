@@ -1,0 +1,63 @@
+.report {
+  background-color: #016468;
+  padding: 70px 0 20px;
+}
+
+.report__header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.report__header-yellow {
+  color: #fbcb07;
+}
+
+.hashtag-report {
+  padding: 30px 0;
+}
+
+.report__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.report__form-label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  padding: 14px 0 10px;
+}
+
+.report__form-input {
+  height: 40px;
+  width: 100%;
+  border-radius: 6px;
+  border: solid 2px #016468;
+}
+
+.report__form-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: solid 2px #016468;
+}
+
+@media (min-width: 768px) {
+  .hashtag-report {
+    padding: 30px 0 0 0;
+  }
+  .report__text-wrapper {
+    width: 50%;
+  }
+
+  .container-report {
+    display: flex;
+    gap: 50px;
+  }
+  .report__form-wrapper {
+    width: 50%;
+  }
+}

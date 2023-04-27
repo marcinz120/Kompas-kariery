@@ -1,6 +1,7 @@
 .hero {
   padding: 100px 0 20px;
   background-color: #016468;
+  overflow: hidden;
 }
 
 .hero__header-primary {
@@ -116,15 +117,7 @@
     margin-bottom: 20px;
   }
   .hero__compass-background {
-    top: -130px;
-    right: -20px;
-    width: 126%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .hero__compass-background {
-    top: -106px;
+    top: -150px;
     right: -20px;
     width: 150%;
   }

@@ -50,8 +50,8 @@
   .container-footer {
     display: flex;
     align-items: baseline;
-    justify-content: center;
-    gap: 100px;
+    justify-content: flex-start;
+    gap: 20%;
   }
   .footer__header-secondary {
     padding-top: 0px;

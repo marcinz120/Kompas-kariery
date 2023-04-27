@@ -1,6 +1,7 @@
 .contact {
   padding: 70px 0 20px;
   background-color: #016468;
+  overflow: hidden;
 }
 
 .contact__header {
@@ -87,7 +88,7 @@
   }
 
   .contact__compass-background {
-    top: -50px;
+    top: -24px;
     right: -22px;
     width: 200%;
   }

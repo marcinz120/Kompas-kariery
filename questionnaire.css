@@ -63,10 +63,19 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
+  .questionnaire__image {
+    width: 60%;
+  }
+
   .questionnaire__compass-decoration {
     top: -40px;
-    left: -6px;
-    width: 120px;
+    left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .questionnaire__compass-decoration {
+    left: 66px;
   }
 }
